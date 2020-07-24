@@ -205,3 +205,10 @@ $(document).keydown(function(e) {
     }
     
 })();
+
+$(function(){
+		skrollr.init({
+		forceHeight: false
+	});
+});
+
