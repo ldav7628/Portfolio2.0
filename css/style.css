@@ -26,6 +26,7 @@ body {
 	color: #b7b7b7;
 	background-color:#010101;
 	-webkit-font-smoothing: antialiased;
+	height: 6000px;
 	
 }
 .typed-cursor{
@@ -269,14 +270,14 @@ input:focus, textarea:focus, select:focus, button:focus {
 
 
 .prt_home_wrapper{
-	background-image:url("../images/banner_bg.jpg");
+	background-image:url("");
 	background-position: center center;
 	background-repeat:repeat;
 	background-size:cover;
 	position:relative;
 	overflow-y:auto;
     padding: 200px 0px;
-	height: 26000px;
+	height: 6000px;
 	
 }
 .prt_home_wrapper h1{
