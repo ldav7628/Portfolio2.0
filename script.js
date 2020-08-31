@@ -55,6 +55,7 @@ gsap.registerPlugin(ScrollTrigger);
 
     clouds.to("#cloud1", { x: 500 }, 0)
     clouds.to("#cloud2", { x: 1000 }, 0)
+    clouds.to("#cloud5", { x: -1000 }, 0)
     clouds.to("#cloud3", { x: -1000 }, 0)
     clouds.to("#cloud4", { x: -700, y: 25 }, 0)
 
@@ -93,7 +94,8 @@ gsap.registerPlugin(ScrollTrigger);
         scrub: 4,
     });
 
-    scene2.fromTo("#h2-1", { y: 500, opacity: 0 }, { y: 0, opacity: 1 }, 0)
+    scene2.fromTo("#h2-1", { y: 500, opacity: 0 }, { y: 250, opacity: 1 }, 0)
+  scene2.fromTo("#h2-11", { y: 500, opacity: 0 }, { y: 370, opacity: 1 }, 0)
     scene2.fromTo("#h2-2", { y: 500 }, { y: 0 }, 0.1)
     scene2.fromTo("#h2-3", { y: 700 }, { y: 0 }, 0.1)
     scene2.fromTo("#h2-4", { y: 700 }, { y: 0 }, 0.2)
@@ -136,7 +138,7 @@ gsap.registerPlugin(ScrollTrigger);
 
     sun2.to("#sun", { attr: { offset: "0.6" } }, 0)
     sun2.to("#bg_grad stop:nth-child(2)", { attr: { offset: "0.7" } }, 0)
-    sun2.to("#sun", { attr: { "stop-color": "#ffff00" } }, 0)
+    sun2.to("#sun", { attr: { "stop-color": "#fff" } }, 0)
     sun2.to("#lg4 stop:nth-child(1)", { attr: { "stop-color": "#623951" } }, 0)
     sun2.to("#lg4 stop:nth-child(2)", { attr: { "stop-color": "#261F36" } }, 0)
     sun2.to("#bg_grad stop:nth-child(6)", { attr: { "stop-color": "#45224A" } }, 0)

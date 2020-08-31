@@ -210,6 +210,9 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_heading_wrapper_2 .prt_heading{
 	margin-bottom:30px;
 }
+.about_start{
+	padding-top: 1000px;
+}
 /*---------- Button css End -------*/
 .prt_btn{
     height: 50px;
@@ -393,11 +396,12 @@ input:focus, textarea:focus, select:focus, button:focus {
 /*---------- About css Start -------*/
 .prt_about_wrapper{
     background-color: #010101;
-    position: fixed;
+    position: absolute;
     width: 100%;
 	top:-100%;
     z-index: 1;
     display: none;
+	height: 6000px;
 }
 .prt_about_info{
 	display:inline-block;
@@ -629,7 +633,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_about_experiencebox:after{
     content: "";
     position: absolute;
-    background-color: #111111;
+ 
     top: 0;
     right: 0;
     bottom: 0;
