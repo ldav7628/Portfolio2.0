@@ -393,7 +393,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 /*---------- About css Start -------*/
 .prt_about_wrapper{
     background-color: #010101;
-    position: absolute;
+    position: fixed;
     width: 100%;
 	top:-100%;
     z-index: 1;
