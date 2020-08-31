@@ -1138,6 +1138,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 	font-size: 36px !important;
 	color:#ffffff;
 	font-weight:500;
+	position: center;
 }
 #canvas{
 	display:inline-block;
@@ -1187,6 +1188,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 .prt_skills_wrapper{
     display: inline-block;
     width: 100%;
+	padding-top: 850px;
 }
 .prt_skills_bars{
     display: inline-block;

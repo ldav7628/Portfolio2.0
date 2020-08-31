@@ -64,7 +64,7 @@ Assigned to: ThemeForest
 			number: 90,
 			text: '90%',
 			width: 8,
-			colors: ["#202020", "#00c8ff"],
+			colors: ["#202020", "#fff"],
 			duration: 900
 		});
 		var circle2 = Circles.create({
@@ -93,8 +93,8 @@ Assigned to: ThemeForest
 			radius: 100,
 			number: 70,
 			text: '70%',
-			width: 8,
-			colors: ["#202020", "#1d8bbe"],
+			width: 6,
+			colors: ["#202020", "#fff"],
 			duration: 900
 		});
 	});
