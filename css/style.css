@@ -395,7 +395,7 @@ input:focus, textarea:focus, select:focus, button:focus {
 }
 /*---------- About css Start -------*/
 .prt_about_wrapper{
-    background-color: #010101;
+    background-color: #transparent;
     position: absolute;
     width: 100%;
 	top:-100%;
