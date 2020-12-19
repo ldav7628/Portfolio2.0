@@ -33,7 +33,7 @@ blockquote {
 }
 
 .websitedisplay {
-  width:300px;
+  width:600px;
   height:250px;
   background-color:transparent;
   border-radius:3px;
@@ -54,7 +54,7 @@ blockquote {
 
 .information {
   display:inline-block;
-  width:150px;
+  width:450px;
   height:250px;
   -webkit-transition:all 0.3s linear;
   position:relative;
@@ -789,4 +789,133 @@ p {
     opacity: 0;
   }
 }
+@font-face {
+  font-family: SFPro;
+  src: url(https://assets.codepen.io/3522775/SF-Pro-Display-Regular.otf);
+}
 
+@font-face {
+  font-family: SFPro-light;
+  src: url(https://assets.codepen.io/3522775/SF-Pro-Text-Ultralight.otf);
+}
+
+
+
+.hero {
+  
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+	justify-content: center;}
+
+  .hero__content {
+	  width: 80%;}
+
+    .hero__content-preview {
+      width: 100%;
+      margin: 30px 0 10px 0;
+      display: flex;
+      justify-content: space-between;
+		align-items: center;}
+      .hero__content-preview-text {
+        color: lightgray;
+        font-size: 14px;
+        line-height: 1.285;
+        font-weight: 400;
+        font-family: SFPro, "Helvetica Neue";
+      }
+
+      .hero__content-preview-ios {
+        margin: 0;
+        padding: 0;
+        color: #1d1d1f;
+        font-size: 20px;
+        line-height: 1.285;
+        font-weight: 600;
+        font-family: SFPro, "Helvetica Neue";
+      }
+
+      .hero__content-preview-features {
+        margin: 0;
+        padding: 0;
+        color: #1d1d1f;
+        font-size: 14px;
+        line-height: 1.285;
+        font-weight: 600;
+        font-family: SFPro, "Helvetica Neue";
+        text-decoration: none;
+      }
+    }
+
+    .hero__content-phones {
+      min-height: 100vh;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+
+    .hero__content-preview-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      margin-bottom: 75px;
+		margin-top: -50px;}
+
+      .hero__content-text-ios14 {
+        margin: 0;
+        padding: 0;
+        font-size: 25px;
+        line-height: 1.28583;
+        font-weight: 600;
+        letter-spacing: 0.007em;
+        font-family: SFPro, "Helvetica Neue";
+      }
+
+      .hero__content-text-headline {
+        font-size: 72px;
+        padding: 0;
+        margin: 0;
+        margin-top: 18px;
+        line-height: 1.05556;
+        font-weight: 600;
+        letter-spacing: -0.012em;
+        font-family: SFPro, "Helvetica Neue";
+		text-align:right;
+      }
+
+      .hero__content-text-intro-text {
+        margin: 22px 36px 31px 36px;
+        font-size: 28px;
+        line-height: 1.28583;
+        font-weight: 600;
+        letter-spacing: 0.007em;
+        font-family: SFPro-light, "Helvetica Neue";
+		  text-align:right;
+      }
+
+.keynote-container {}
+        .hero__content-preview-text {
+          font-size: 28px;
+          line-height: 1.285;
+          font-weight: 400;
+          font-family: SFPro, "Helvetica Neue";
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.button__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 7px 18px;
+  border-radius: 18px;
+  border: 1px solid #6e6e73;
+  color: #6e6e73;
+  margin-bottom: 31px;
+  font-family: SFPro, "Helvetica Neue";
+}
