@@ -184,6 +184,9 @@ blockquote {
 margin:auto;
 text-align:center;
 }
+.showreel{
+z-index: 10000;
+}
 
 .featuredinformation h5 {
 	position:absolute;
