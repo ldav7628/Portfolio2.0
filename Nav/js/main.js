@@ -12,52 +12,9 @@ $(window).on("load", function() {
     var animatedList4 = '.clients-logos .logo-holder, .cr-btn, .footer .contact-info-holder, .few-contact .contact-info-holder, .job-box .title, .job-box .subtitle, .people-box .title, .people-box .subtitle, .post-box .text, .post-header .text, .post-content h1, .post-content p, .social-row .social-link-holder, .project-info h2, .project-imgs .img-holder';
 
     // Every list will have different animation
-    ScrollReveal().reveal(animatedList1,{ duration: 800, distance: '50px', interval: 100});
-    ScrollReveal().reveal(animatedList2,{ duration: 800, scale: 0.8, distance: '50px', interval: 50 });
-    ScrollReveal().reveal(animatedList3,{ duration: 1000, interval: 100 });
-    ScrollReveal().reveal(animatedList4,{ duration: 800, interval: 50 });
     
-    // Selecting object to apply classes while scrolling
-    var socialMedia = $('.social-media', '.cnav');
-    var mouseScroll = $('.mouse-scroll', '.header');
-    var header = $('.header');
-    var cnav = $('.cnav');
 
-    // After the page loaded check if the window scroll is over 180px and add 'hide' class
-    if(window.scrollY>180){
-        socialMedia.addClass('hide');
-    }else{
-        socialMedia.removeClass('hide');
-    }
-
-    // After the page loaded check if the window scroll is over 50px and add 'hide' class
-    if(window.scrollY>50){
-        mouseScroll.addClass('hide');
-    }
-
-    // After the page loaded check if the window scroll is over the 'header' height and add 'blend' class
-    if(window.scrollY>(header.outerHeight()-cnav.outerHeight())){
-        cnav.addClass('blend');
-    }else{
-        cnav.removeClass('blend');
-    }
-
-    // Check and add classes while scrolling for the same last three object
-    $(window).on("scroll", function(){
-        if(window.scrollY>180){
-            socialMedia.addClass('hide');
-        }else{
-            socialMedia.removeClass('hide');
-        }
-        if(window.scrollY>50){
-            mouseScroll.addClass('hide');
-        }
-        if(window.scrollY>(header.outerHeight()-cnav.outerHeight())){
-            cnav.addClass('blend');
-        }else{
-            cnav.removeClass('blend');
-        }
-    });
+   
 
     // Menu Toggle and animate the link using AnimeJS
     $('.menu-toggle').on('click',function(e){

@@ -70,7 +70,7 @@ body.menu-open {
 }
 
 .menu-toggle .icon:before, .menu-toggle .icon:after {
-    
+    content: "";
     position: absolute;
     left: 0;
     width: 100%;
