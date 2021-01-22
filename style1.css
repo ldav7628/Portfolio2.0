@@ -828,7 +828,31 @@ p {
   src: url(https://assets.codepen.io/3522775/SF-Pro-Text-Ultralight.otf);
 }
 
-
+.animsition-loading,
+.animsition-loading:after {
+	width: 36px;
+	height: 36px;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	margin-top: -18px;
+	margin-left: -18px;
+	border-radius: 50%;
+	z-index: 100;
+}
+.animsition-loading {
+	opacity: .2;
+	background-color: transparent;
+	border:none;
+	background-color: #fff;
+	animation: loaderAnim 0.7s linear infinite alternate forwards;
+}
+@keyframes loaderAnim {
+	to {
+		opacity: 1;
+		transform: scale3d(0.5,0.5,1);
+	}
+}
 
 .hero {
   
